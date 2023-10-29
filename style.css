@@ -16,6 +16,7 @@
     --gray-400: #94A3B8; 
     --purple: #7C3AED; 
     --gray-200: #E2E8F0; 
+    --white: #FFF; 
 }
 
 
@@ -71,7 +72,7 @@ main {
 .login input {
     padding: 1rem 0.75rem;
     border: 1px solid var(--gray-200);
-    border-radius: 0.25rem;
+    border-radius: 0.25rem; 
 }
 
 .login input::placeholder {
@@ -92,4 +93,16 @@ main {
 
 .login a:hover {
     text-decoration: underline;
+}
+
+.login button {
+    margin-top: 1rem;
+    padding-block: 1rem;
+    width: 100%;
+    background: var(--purple);
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white);
 }
